@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="أفق التقنية: تصميم وتطوير مواقع ويب عصرية وحلول رقمية مبتكرة للأفراد والشركات.">
+<title>أفق التقنية | نحوّل الأفكار إلى واقع رقمي</title>
+<style>
+:root{--bg:#07111f;--panel:#0e1b2d;--panel2:#12243a;--text:#f4f7ff;--muted:#a9b7cc;--blue:#5b8cff;--purple:#a66bff;--line:rgba(255,255,255,.1)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Tahoma,Arial,sans-serif;background:radial-gradient(circle at 85% 5%,#1c2450 0,transparent 30%),var(--bg);color:var(--text);line-height:1.8}
+a{color:inherit;text-decoration:none}
+.container{width:min(1100px,92%);margin:auto}
+header{position:sticky;top:0;z-index:5;background:rgba(7,17,31,.88);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+nav{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;padding:12px 0}
+.logo{font-weight:900;font-size:1.25rem}.logo span{color:#8baeff}
+.links{display:flex;gap:20px;flex-wrap:wrap;font-size:.95rem;color:var(--muted)}
+.links a:hover{color:white}
+.hero{padding:90px 0 75px;display:grid;grid-template-columns:1.3fr .7fr;gap:35px;align-items:center}
+.tag{display:inline-block;border:1px solid #354a72;border-radius:30px;padding:5px 13px;color:#b7caff;background:#111f38;font-size:.85rem}
+h1{font-size:clamp(2.3rem,6vw,4.2rem);line-height:1.25;margin:20px 0}
+.gradient{background:linear-gradient(90deg,#8bb5ff,#c09aff);-webkit-background-clip:text;background-clip:text;color:transparent}
+p{color:var(--muted)}
+.hero p{font-size:1.1rem;max-width:650px}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:25px}
+.btn{display:inline-block;border-radius:12px;padding:11px 19px;font-weight:bold;border:1px solid var(--line);cursor:pointer;font:inherit}
+.primary{background:linear-gradient(110deg,var(--blue),var(--purple));color:white;border:0}
+.secondary{background:#101e32;color:white}
+.visual{border:1px solid #33476a;background:linear-gradient(145deg,#142b49,#171833);padding:28px;border-radius:26px;box-shadow:0 25px 70px #0005}
+.visual .symbol{font-size:4.4rem;text-align:center;color:#a9c2ff}
+.visual h3{text-align:center;margin:0}
+.visual p{text-align:center;font-size:.9rem}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:24px}
+.stat{background:#ffffff09;border:1px solid var(--line);border-radius:13px;padding:12px;text-align:center}
+.stat strong{display:block;color:#c5d4ff;font-size:1.2rem}
+section{padding:60px 0}
+.section-head{text-align:center;max-width:680px;margin:0 auto 30px}
+h2{font-size:clamp(1.7rem,4vw,2.5rem);margin:0}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}
+.card{background:linear-gradient(145deg,#101f33,#0b1727);border:1px solid var(--line);border-radius:18px;padding:23px}
+.icon{font-size:1.8rem}
+.card h3{margin:8px 0}
+.card p{margin-bottom:0}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:25px;align-items:center}
+.checks{padding:0;list-style:none;color:var(--muted)}
+.checks li{margin:10px 0}.checks li:before{content:"✓";color:#8eafff;font-weight:bold;margin-left:10px}
+.contact{display:grid;grid-template-columns:.8fr 1.2fr;gap:24px}
+form{display:grid;gap:12px}
+input,textarea{width:100%;padding:13px 14px;background:#071322;color:white;border:1px solid #34445c;border-radius:11px;font:inherit}
+textarea{min-height:130px;resize:vertical}
+.notice{font-size:.85rem;color:#f3cf8b}
+footer{border-top:1px solid var(--line);padding:24px 0;text-align:center;color:var(--muted)}
+@media(max-width:760px){.hero,.about,.contact{grid-template-columns:1fr}.hero{padding-top:55px}.grid{grid-template-columns:1fr}.links{gap:12px}.visual{max-width:480px;margin:auto}.stats{grid-template-columns:repeat(3,1fr)}}
+</style>
+</head>
+<body>
+<header>
+  <div class="container">
+    <nav>
+      <a class="logo" href="#home">✦ <span>أفق التقنية</span></a>
+      <div class="links">
+        <a href="#home">الرئيسية</a><a href="#services">خدماتنا</a><a href="#projects">أعمالنا</a><a href="#about">من نحن</a><a href="#contact">اتصل بنا</a>
+      </div>
+    </nav>
+  </div>
+</header>
+<main>
+<section class="container hero" id="home">
+  <div>
+    <span class="tag">حلول رقمية بطموح بلا حدود</span>
+    <h1>نحوّل أفكارك إلى <span class="gradient">واقع رقمي</span></h1>
+    <p>أهلًا بك في أفق التقنية، حيث يلتقي الإبداع بالتكنولوجيا لنصنع مواقع ويب عصرية، وتجارب رقمية بسيطة ومميزة تساعدك على إبراز مشروعك والانطلاق بثقة.</p>
+    <div class="actions"><a class="btn primary" href="#contact">ابدأ مشروعك الآن ←</a><a class="btn secondary" href="#services">اكتشف خدماتنا</a></div>
+  </div>
+  <div class="visual"><div class="symbol">✦</div><h3>أفق التقنية</h3><p>ابتكار • تصميم • تطوير</p><div class="stats"><div class="stat"><strong>إبداع</strong><small>أفكار جديدة</small></div><div class="stat"><strong>جودة</strong><small>اهتمام بالتفاصيل</small></div><div class="stat"><strong>طموح</strong><small>نحو المستقبل</small></div></div></div>
+</section>
+<section id="services">
+  <div class="container"><div class="section-head"><h2>خدماتنا</h2><p>نساعدك على بناء حضور رقمي يعبّر عن فكرتك ويخدم أهدافك.</p></div>
+  <div class="grid">
+    <article class="card"><div class="icon">💻</div><h3>تصميم مواقع الويب</h3><p>واجهات عصرية ومتجاوبة مع الهواتف والحواسيب، مع تجربة استخدام واضحة.</p></article>
+    <article class="card"><div class="icon">⚙️</div><h3>تطوير الويب</h3><p>صفحات منظمة وسريعة تساعدك على عرض خدماتك ومعلومات مشروعك بشكل احترافي.</p></article>
+    <article class="card"><div class="icon">🚀</div><h3>الحضور الرقمي</h3><p>نساعدك في تقديم فكرتك بصورة مميزة وتجهيز أساس مناسب للانطلاق عبر الإنترنت.</p></article>
+  </div></div>
+</section>
+<section id="projects">
+  <div class="container"><div class="section-head"><h2>أعمالنا ومشاريعنا</h2><p>كل مشروع يبدأ بفكرة، والخطوة الأولى هي تحويلها إلى تجربة رقمية ملموسة.</p></div>
+  <div class="grid">
+    <article class="card"><div class="icon">🌐</div><h3>مواقع تعريفية</h3><p>مساحة واضحة لعرض نشاطك، خدماتك، ورسالتك للعملاء.</p></article>
+    <article class="card"><div class="icon">📱</div><h3>تصميم متجاوب</h3><p>تجربة مريحة وسهلة على مختلف أحجام الشاشات.</p></article>
+    <article class="card"><div class="icon">✨</div><h3>أفكار مبتكرة</h3><p>نحوّل التصورات الأولية إلى نماذج رقمية قابلة للتطوير.</p></article>
+  </div></div>
+</section>
+<section id="about">
+  <div class="container about">
+    <div><h2>من نحن؟</h2><p>أفق التقنية منصة رقمية تهتم بتصميم وتطوير مواقع الويب العصرية وتقديم حلول تقنية مبتكرة للأفراد والشركات. نؤمن بأن التقنية وسيلة لفتح آفاق جديدة، وأن التصميم الجيد يجعل الأفكار أقرب إلى الناس.</p><ul class="checks"><li>تصميم بسيط وأنيق</li><li>الاهتمام بتجربة المستخدم</li><li>التطوير المستمر والتعلّم</li></ul></div>
+    <div class="card"><div class="icon">🎯</div><h3>رؤيتنا</h3><p>أن نجعل الانطلاق الرقمي أسهل، ونساعد أصحاب الأفكار على تقديم مشاريعهم بثقة ووضوح.</p><div class="icon">🤝</div><h3>رسالتنا</h3><p>الجمع بين الإبداع والتكنولوجيا لبناء تجارب رقمية مفيدة وسهلة الاستخدام.</p></div>
+  </div>
+</section>
+<section id="contact">
+  <div class="container"><div class="section-head"><h2>لنتحدث عن فكرتك</h2><p>املأ النموذج لتجهيز رسالة يمكنك إرسالها عبر تطبيق البريد الإلكتروني.</p></div>
+  <div class="contact">
+    <div class="card"><h3>تواصل مع أفق التقنية</h3><p>هل لديك فكرة أو مشروع تريد تطويره؟ اكتب تفاصيلك في النموذج وسنساعدك على تنظيم طلبك.</p><p>✉️ يمكنك استخدام النموذج لإنشاء رسالة بريد إلكتروني من جهازك.</p></div>
+    <div class="card"><form id="contactForm"><input id="name" placeholder="الاسم الكامل" required><input id="email" type="email" placeholder="البريد الإلكتروني" required><input id="subject" placeholder="موضوع الرسالة" required><textarea id="message" placeholder="اكتب رسالتك هنا..." required></textarea><button class="btn primary" type="submit">تجهيز الرسالة ✉</button><p class="notice">ملاحظة: هذا النموذج لا يرسل البيانات إلى خادم. عند الضغط عليه سيفتح تطبيق البريد إن كان متاحًا.</p></form></div>
+  </div></div>
+</section>
+</main>
+<footer><div class="container">© <span id="year"></span> أفق التقنية — نحوّل الأفكار إلى واقع رقمي.</div></footer>
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+document.getElementById('contactForm').addEventListener('submit', function(e){
+  e.preventDefault();
+  const name=document.getElementById('name').value.trim();
+  const email=document.getElementById('email').value.trim();
+  const subject=document.getElementById('subject').value.trim();
+  const message=document.getElementById('message').value.trim();
+  const body=`الاسم: ${name}\nالبريد: ${email}\n\n${message}`;
+  window.location.href=`mailto:?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+});
+</script>
+</body>
+</html>
